@@ -11,7 +11,7 @@ class Game {
     // When a piece collapses with something at its bottom, how many time wait for putting another piece? (in ms)
     static TIMEOUT_LOCK_PUT_NEXT_PIECE = 300;
     // Speed of falling piece (in ms)
-    static PIECE_SPEED = 900;
+    static PIECE_SPEED = 600;
     // Animation time when a row is being deleted
     static DELETE_ROW_ANIMATION = 500;
     // Score to add when a square dissapears (for each square)
@@ -73,7 +73,7 @@ class Game {
         this.pauseGame();
     }
 
-    showWelcome() {
+    /*showWelcome() {
         Swal.fire("Bienvenido", `Juego de Tetris.
         <br>
         <strong>Controles:</strong>
@@ -84,8 +84,13 @@ class Game {
         <li class="list-group-item"><strong>También puedes usar los botones si estás en móvil</strong></li>
         </ul>
         `);
-    }
+    }*/
 
+    showWelcome() {
+        Swal.fire("Bienvenido", `Ayuda a las niñas con retraso y cancer ❤️ att: Miguel.
+        <img src="assets/img/nicole.jpeg" alt="Nicol" width="300" height="500" />
+        `);
+    }
 
     initControls() {
         document.addEventListener("keydown", (e) => {
