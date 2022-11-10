@@ -73,7 +73,7 @@ class Game {
         this.pauseGame();
     }
 
-    /*showWelcome() {
+    showWelcome() {
         Swal.fire("Bienvenido", `Juego de Tetris.
         <br>
         <strong>Controles:</strong>
@@ -84,13 +84,13 @@ class Game {
         <li class="list-group-item"><strong>También puedes usar los botones si estás en móvil</strong></li>
         </ul>
         `);
-    }*/
+    }
 
-    showWelcome() {
+    /*showWelcome() {
         Swal.fire("Bienvenido", `Ayuda a las niñas con retraso y cancer ❤️ att: Miguel.
         <img src="assets/img/nicole.jpeg" alt="Nicol" width="300" height="500" />
         `);
-    }
+    }*/
 
     initControls() {
         document.addEventListener("keydown", (e) => {
