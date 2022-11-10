@@ -2,7 +2,7 @@ class Game {
     // Square length in pixels
     static SQUARE_LENGTH = screen.width < 1290 ? 30 : 40;
     static COLUMNS = 10;
-    static ROWS = 18;
+    static ROWS = 15;
     static CANVAS_WIDTH = this.SQUARE_LENGTH * this.COLUMNS;
     static CANVAS_HEIGHT = this.SQUARE_LENGTH * this.ROWS;
     static EMPTY_COLOR = "#555";

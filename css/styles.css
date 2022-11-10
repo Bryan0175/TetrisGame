@@ -56,6 +56,9 @@ div.wrapper h1:nth-child(6) {
 	font-weight: bold;
 	font-size: 4em;
 }
+#text-in{
+	font-size: 1.7em;
+}
 .btn:not(#reset){
     border-radius: 50%;
 }
