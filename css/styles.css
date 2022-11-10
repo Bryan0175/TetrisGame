@@ -12,7 +12,6 @@
 	color: #fff;
 }
 body {
-    /*background-image: url("../assets/img/bg10.jpg");*/
     background-image: url("../assets/img/bg10.jpg");
     background-position: center center;
     background-repeat: no-repeat;
@@ -61,10 +60,27 @@ div.wrapper h1:nth-child(6) {
     border-radius: 50%;
 }
 @media only screen and (max-width: 600px) {
-  body {
-  	height: 80vh;
-  	background-size: 100vh;
-  }
+	body{
+		background-image: url("../assets/img/resp.jpg");
+	}
+	canvas{
+		margin: 30px auto;
+	}
+	#puntaje{
+		margin-left: -60px;
+	}
+	#btnIzquierda,#btnAbajo,#btnDerecha,#btnRotar{
+		width: 70px;
+		height: 70px;
+		font-size: 2rem;
+	}
+	#btnIniciar,#btnPausar,#reset{
+		position: absolute;
+		top: -45px;
+	}
+	#reset{
+		right: 45px;
+	}
   .subtitle{
 	color: #fff;
 	text-shadow: 4px 4px #000;
@@ -73,5 +89,9 @@ div.wrapper h1:nth-child(6) {
 	font-family: Tetris;
 	font-weight: bold;
 	font-size: 3em;
+  }
+  #text-in{
+  	overflow: hidden;
+  	display: none;
   }
 }

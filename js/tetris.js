@@ -1,6 +1,6 @@
 class Game {
     // Square length in pixels
-    static SQUARE_LENGTH = screen.width > 420 ? 30 : 20;
+    static SQUARE_LENGTH = screen.width < 1290 ? 30 : 40;
     static COLUMNS = 10;
     static ROWS = 18;
     static CANVAS_WIDTH = this.SQUARE_LENGTH * this.COLUMNS;
@@ -11,7 +11,7 @@ class Game {
     // When a piece collapses with something at its bottom, how many time wait for putting another piece? (in ms)
     static TIMEOUT_LOCK_PUT_NEXT_PIECE = 300;
     // Speed of falling piece (in ms)
-    static PIECE_SPEED = 300;
+    static PIECE_SPEED = 900;
     // Animation time when a row is being deleted
     static DELETE_ROW_ANIMATION = 500;
     // Score to add when a square dissapears (for each square)
