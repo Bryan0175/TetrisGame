@@ -73,7 +73,7 @@ class Game {
         this.pauseGame();
     }
 
-    /*showWelcome() {
+    showWelcome() {
         Swal.fire("Bienvenido", `Juego de Tetris.
         <br>
         <strong>Controles:</strong>
@@ -83,12 +83,6 @@ class Game {
         <li class="list-group-item"> <kbd>Flechas de dirección</kbd><br>Mover figura hacia esa dirección</li>
         <li class="list-group-item"><strong>También puedes usar los botones si estás en móvil</strong></li>
         </ul>
-        `);
-    }*/
-
-    showWelcome() {
-        Swal.fire("Bienvenido", `El señor de la nocheeee, soy mitad hombre 👨‍💼 mitdad animal 🦇.
-        <img src="assets/img/chebe.jpeg" alt="Chebe" width="300" height="500" />
         `);
     }
 
